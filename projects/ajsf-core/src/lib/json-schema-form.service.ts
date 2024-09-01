@@ -59,7 +59,7 @@ export class JsonSchemaFormService {
 
   ajvOptions: any = {
     allErrors: true,
-    jsonPointers: true,
+    jsPropertySyntax: true,
     unknownFormats: 'ignore'
   };
   ajv: any = new Ajv(this.ajvOptions); // AJV: Another JSON Schema Validator
