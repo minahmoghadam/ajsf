@@ -48,8 +48,7 @@ import { JsonSchemaFormService, buildTitleMap } from '@ajsf/core';
         [innerHTML]="options?.errorMessage"></mat-error>
     </div>`,
   styles: [`
-    mat-radio-group { display: inline-flex; }
-    mat-radio-button { margin: 2px; }
+		mat-radio-button { margin: 2px; }
     mat-error { font-size: 75%; }
   `]
 })
